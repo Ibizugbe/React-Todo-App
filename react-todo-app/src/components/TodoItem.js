@@ -1,11 +1,7 @@
-import React, { Component } from 'react'
-
-class TodoItem extends Component {
-  render() { 
+function TodoItem(props) {
     return ( 
       <li>{this.props.todo.title}</li>
      );
   }
-}
  
 export default TodoItem;
